@@ -1,0 +1,51 @@
+\contentsline {section}{\numberline {1}はじめに}{1}{section.1}
+\contentsline {section}{\numberline {2}仮想化技術}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}仮想化}{3}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}仮想化とは}{3}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}サーバ仮想化}{3}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}ホスト OS 型}{5}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}ハイパーバイザ型}{5}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}完全仮想化と準仮想化}{6}{subsubsection.2.1.5}
+\contentsline {subsection}{\numberline {2.2}クラウドコンピューティングにおける仮想化技術の利用}{7}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}クラウドコンピューティングとは}{7}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}PaaS とは}{8}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Live Migration}{9}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Live Migration とは}{9}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Live Migration の用途}{9}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}移送する対象と方法}{11}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}移送の仕組み}{12}{subsubsection.2.3.4}
+\contentsline {subsection}{\numberline {2.4}仮想マシン間のページ共有技術}{14}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Transparent Page Sharing}{15}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}メモリ共有}{15}{subsubsection.2.4.2}
+\contentsline {section}{\numberline {3}関連研究}{17}{section.3}
+\contentsline {subsection}{\numberline {3.1}Post-copy}{17}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}移送メモリ量削減手法}{19}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}メモリ共有手法}{20}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}まとめ}{23}{subsection.3.4}
+\contentsline {section}{\numberline {4}提案手法}{24}{section.4}
+\contentsline {subsection}{\numberline {4.1}概要}{24}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}SharingMigration}{24}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}非転送可能なページ}{25}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}非転送ページと送信量}{26}{subsection.4.4}
+\contentsline {section}{\numberline {5}実装}{27}{section.5}
+\contentsline {subsection}{\numberline {5.1}XEN}{27}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}メモリ共有モジュール}{29}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}SharingMigration の実装}{31}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}SharingMigration の実装面の流れ}{31}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}STAGE0，STAGE1}{32}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3}STAGE2，STAGE3}{33}{subsubsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.4}STAGE4}{35}{subsubsection.5.3.4}
+\contentsline {subsubsection}{\numberline {5.3.5}STAGE5}{36}{subsubsection.5.3.5}
+\contentsline {section}{\numberline {6}実験}{37}{section.6}
+\contentsline {subsection}{\numberline {6.1}非転送ページの量を調整した本実装の実験}{37}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}目的}{37}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}実験方法}{38}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}実験結果}{39}{subsubsection.6.1.3}
+\contentsline {subsection}{\numberline {6.2}計測方法}{40}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}各マシンでのコマンドの実行方法}{40}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}時間の測定方法}{41}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}実験スクリプトの流れ}{41}{subsubsection.6.2.3}
+\contentsline {section}{\numberline {7}おわりに}{44}{section.7}
+\contentsline {subsection}{\numberline {7.1}まとめ}{44}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}今後の課題}{44}{subsection.7.2}
+\contentsline {section}{\numberline {8}謝辞}{47}{section.8}
