@@ -1,0 +1,17 @@
+
+digraph controlflow {
+  start [
+    label="char buf[1024];\nint from_fd = open(argv[1], O_RDONLY);\nread(from_fd, buf, 1024);\nint open_flg = O_WRONLY;",
+    shape=box
+  ];
+  branch [
+    label="open_flg |= O_CREAT;",
+    shape=box
+  ];
+  end [
+    label="int to_fd = open(\"app.txt\", open_flg);\nwrite(to_fd, buf, 1024);\nclose(from_fd);close(to_fd);",
+    shape=box
+  ];
+  start -> branch -> end;
+  start -> end
+}
