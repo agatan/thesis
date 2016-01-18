@@ -8,10 +8,10 @@
 \BOOKMARK [1][-]{section.3}{提案}{}% 8
 \BOOKMARK [2][-]{subsection.3.1}{概要}{section.3}% 9
 \BOOKMARK [2][-]{subsection.3.2}{静的解析}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.3}{カーネルのブート}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{ブートに必要なコードの分類}{section.3}% 11
 \BOOKMARK [2][-]{subsection.3.4}{Linuxカーネル}{section.3}% 12
 \BOOKMARK [3][-]{subsubsection.3.4.1}{概要}{subsection.3.4}% 13
-\BOOKMARK [3][-]{subsubsection.3.4.2}{コンパイル}{subsection.3.4}% 14
+\BOOKMARK [3][-]{subsubsection.3.4.2}{ビルド}{subsection.3.4}% 14
 \BOOKMARK [3][-]{subsubsection.3.4.3}{ブート}{subsection.3.4}% 15
 \BOOKMARK [1][-]{section.4}{実装}{}% 16
 \BOOKMARK [2][-]{subsection.4.1}{概要}{section.4}% 17
